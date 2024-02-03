@@ -1,11 +1,12 @@
 
-# ASSIGNMENT QUESTIONS
+# CHAT PWA APP
+ - [Deployed Link](https://chat-app-gamma-wine.vercel.app/)
 
 This is a basic chat PWA app that demonstrates the use of web sockets to build realtime chat application.
 The app also allows the exchange of multimedia content like Videos and Audios.
 
 ## SETUP
-After forking the repository, go to the root directory and then \
+After forking the backend repository (backend_chatEngine) and go to the root directory. Then make respective .env files to keep the API keys.
 
 npm install
 ```bash
@@ -14,13 +15,15 @@ npm install
 ```bash
   npm start
 ```
+Similarly, after forking the front repository (chat_app) and go to the root directory. Then make respective .env files to keep the API keys.
+
+npm install
 ```bash
-  npx cypress open
+  npm install
+```
+```bash
+  npm start
 ```
 
-**The zeroth test case** checks whether you've successfully forked the repository and are able to run the react app after installing all the dependencies.
-It also checks whether the increment and decrement buttons are working for all three side lengths, and whether the triangle validity check is functioning correctly.\
-**The first test case** checks whether the side lengths are correctly being displayed after defined number of increment and decrement operations, and whether you are correctly able to display the triangle perimeter and area.\
-**The second test case** checks whether after a set number of increment and decrement operations, you are successfully able to display the three interior angles of the triangle.
-### BEST OF LUCK !
+
 
