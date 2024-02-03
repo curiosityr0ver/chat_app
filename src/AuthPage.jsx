@@ -6,7 +6,7 @@ const AuthPage = (props) => {
         const { value } = e.target[0];
 
         axios.post(
-            'https://backendchatengine-production.up.railway.app/authenticate',
+            `${process.env.REACT_APP_BACKEND_ENDPOINT}` || 'http://localhost:3001/authenticate',
             { username: value }
         )
             .then((r) => {
